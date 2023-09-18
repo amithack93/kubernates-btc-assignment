@@ -1,0 +1,4 @@
+apiVersion: v2
+name: btc-price-service
+description: A Helm chart for the BTC price microservice
+version: 0.1.0

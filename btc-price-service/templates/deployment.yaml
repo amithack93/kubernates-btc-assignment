@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: btc-price-service
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: btc-price-service
+  template:
+    metadata:
+      labels:
+        app: btc-price-service
+    spec:
+      containers:
+      - name: btc-price-service
+        image: "{{ .Values.image.repository }}:latest"
+        ports:
+        - containerPort: 5000

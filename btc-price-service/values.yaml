@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: your_dockerhub_username/btc-price-service
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 5000
