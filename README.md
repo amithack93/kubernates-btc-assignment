@@ -1,8 +1,6 @@
 # msd-assignment
 msd-assignment based on kubernates
 
-### Updated `README.md`:
-
 ```markdown
 # msd-assignment
 
