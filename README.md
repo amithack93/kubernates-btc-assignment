@@ -1,8 +1,8 @@
-# msd-assignment
+# kubernates-btc-assignment
 msd-assignment based on kubernates
 
 ```markdown
-# msd-assignment
+# kubernates-btc-assignment
 
 This repository contains a microservice that fetches the current price of Bitcoin in EUR and CZK. The microservice is containerized using Docker and can be deployed to a Kubernetes cluster using Helm.
 
@@ -63,9 +63,3 @@ Replace `<SERVICE_IP>` with the IP address of the btc-price-service.
 ## License
 
 This project is open-source and available under the MIT License.
-
-```
-
-You can replace the existing content of your `README.md` with the content provided above. This will give a comprehensive overview of the microservice, its containerization, and deployment instructions.
-
-Once you've updated the `README.md`, commit and push the changes to your GitHub repository. This will ensure that anyone accessing your repository will have a clear understanding of how to run and deploy the microservice.
